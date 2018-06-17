@@ -1,4 +1,6 @@
-package com.hrorizen.chin.threadTest.entity;
+package com.hrorizen.chin.common.entity;
+
+import com.hrorizen.chin.common.constants.Gender;
 
 /**
  * @author chenxin
@@ -19,7 +21,7 @@ public class Student {
 	/**
 	 * 性别
 	 */
-	private String gender;
+	private Gender gender;
 
 	public String getName() {
 		return name;
@@ -37,11 +39,11 @@ public class Student {
 		this.age = age;
 	}
 
-	public String getGender() {
+	public Gender getGender() {
 		return gender;
 	}
 
-	public void setGender(String gender) {
+	public void setGender(Gender gender) {
 		this.gender = gender;
 	}
 
