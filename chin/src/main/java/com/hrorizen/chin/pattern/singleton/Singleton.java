@@ -14,7 +14,7 @@ public class Singleton {
 	 * 懒汉式本身是非线程安全的
 	 * @return
 	 */
-	public static Singleton getLasyInstance(){
+	public static Singleton getLazyInstance(){
 		if( lazyInstance == null ){
 			lazyInstance = new Singleton();
 		}
@@ -60,7 +60,7 @@ public class Singleton {
 	 * 使用静态内部类  性能最好
 	 * @return
 	 */
-	public static final Singleton getLazyInstance(){
+	public static final Singleton getLazyInstanceSafe3(){
 		return LazyMan.LAZY_ONE;
 	}
 	
