@@ -36,6 +36,7 @@ public class Singleton {
 	
 	//method 2 
 	/**
+	 *  常用方式
 	 * 双重检查锁定
 	 * @return
 	 */
