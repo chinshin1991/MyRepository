@@ -16,7 +16,8 @@ public class ShapeFactory {
 	   public Shape getShape( ShapeType shapeType){
 	      if(shapeType == null){
 	         return null;
-	      }        
+	      }
+	              
 	      if(shapeType.equals( ShapeType.CIRCLE )){
 	         return new Circle();
 	      } else if(shapeType.equals( ShapeType.RECTANGLE )){
